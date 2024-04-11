@@ -101,10 +101,12 @@ function App() {
   useEffect(function () {
     async function fetchQuestions() {
       try {
-        const res = await fetch("http://localhost:8000/questions");
+        const res = await fetch(
+          "https://praveenjd201.github.io/Fake_API/questions.json"
+        );
         const data = await res.json();
-        // console.log(data);
-        dispatch({ type: "dataReceived", payload: data });
+        console.log(data.questions);
+        dispatch({ type: "dataReceived", payload: data.questions });
       } catch (err) {
         console.log(err);
         dispatch({ type: "dataFailed" });
