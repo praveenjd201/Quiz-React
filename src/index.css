@@ -282,9 +282,23 @@ progress {
   h1 {
     font-size: 4.1rem;
   }
-
+  h2 {
+    font-size: 3.2rem;
+  }
   .main {
     width: 36rem;
+  }
+  .options {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  .btn {
+    font-size: 1.8rem;
+    padding: 1y rem 2.2rem;
+  }
+  .btn-option {
+    width: 100%;
+    text-align: left;
   }
 }
 
@@ -307,5 +321,17 @@ progress {
   }
   .main {
     width: 29rem;
+  }
+  .options {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2.2rem;
+  }
+  .btn-option {
+    width: 100%;
+    text-align: left;
   }
 }
