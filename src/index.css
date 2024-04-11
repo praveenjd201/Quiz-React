@@ -334,4 +334,18 @@ progress {
     width: 100%;
     text-align: left;
   }
+  .result {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+  }
+
+  .result span {
+    font-size: 1.5rem;
+    margin-right: 2px;
+  }
+
+  .highscore {
+    font-size: 1.4rem;
+  }
 }
